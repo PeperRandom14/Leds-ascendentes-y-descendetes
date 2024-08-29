@@ -1,0 +1,21 @@
+// C++ code
+//Proyecto leds Ascendentes y descendentes
+void setup()
+{
+  for (int i=6;i<=13;i++) {
+    pinMode(i, OUTPUT);
+  } 
+  
+}
+
+void loop()
+{
+  for (int i=13;i>=6;i--){
+    digitalWrite(i, HIGH); //enciende el led de posicion i
+    delay(200); // 0.2 segundo de demora
+  }
+  for (int i=6;i<=13;i++){
+    digitalWrite(i, LOW); //apaga el led de posicion i
+    delay(200); // 0.2 segundos de demora
+  }
+}
