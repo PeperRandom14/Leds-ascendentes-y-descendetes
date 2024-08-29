@@ -1,4 +1,0 @@
-IZQUIERDA(I) DERECHA(D)
-D I D I D D D I I D I D D D I D D 
-I I I I I I I I D I D D I I I I D
-D D I I D D D
